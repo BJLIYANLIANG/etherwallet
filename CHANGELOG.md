@@ -1,3 +1,6 @@
+### New
+- Fixes gasPrice when generating offline. []()
+
 ### Release v3.24.0
 
 ### New
