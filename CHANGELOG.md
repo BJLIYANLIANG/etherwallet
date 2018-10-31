@@ -1,5 +1,5 @@
 ### New
-- Fixes gasPrice when generating offline. []()
+- Fixes gasPrice when generating offline. [#2134](https://github.com/kvhnuke/etherwallet/pull/2134)
 
 ### Release v3.24.0
 
