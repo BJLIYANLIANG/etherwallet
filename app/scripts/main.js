@@ -77,7 +77,6 @@ if (IS_CX) {
 } else {
   var MewConnectEth = require("./staticJS/mewConnectEth");
   var MewConnect = require("@myetherwallet/mewconnect-web-client").Initiator;
-  var u2f = require("u2f-api");
   var ledger3 = require("./staticJS/ledger3");
   var ledgerEth = require("./staticJS/ledger-eth");
   var trezorConnect = require("trezor-connect").default;
@@ -85,7 +84,6 @@ if (IS_CX) {
   var digitalBitboxEth = require("./staticJS/digitalBitboxEth");
   var secalotUsb = require("./staticJS/secalotUsb");
   var secalotEth = require("./staticJS/secalotEth");
-  window.u2f = u2f;
   window.Ledger3 = ledger3;
   window.ledgerEth = ledgerEth;
   window.TrezorConnect = trezorConnect;
